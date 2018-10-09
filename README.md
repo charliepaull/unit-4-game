@@ -1,4 +1,4 @@
-# unit-4-game
+```# unit-4-game
 crystal counter hw for week 4. jQuery used. 
 
 **Note**
@@ -44,4 +44,4 @@ Strategy:
         2. use columns
         3. use padding to increase each box
             a. use positioning within the boxes to place numbers
-            b. absolute positioning(?)
+            b. absolute positioning(?)```
