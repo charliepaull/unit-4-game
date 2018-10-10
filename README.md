@@ -26,13 +26,11 @@ Strategy:
             b. wins & losses variables
                 i. wins++ if userTotal === cpuNumber
                 ii. losses++ if userTotal > cpuNumber
-            c. create variables for each crystal
-                i. each crystal should be assigned a randomized number (using math.Floor(math.Random) * range(which here is 1-12))
-                ii. use button element with selection for each crystal, then use class?
-                    *. $(":button") 
-            d. create variable for userTotal
-                i. userTotal++ WHEN crystals are clicked
-                    *. Event triggered     
+            <!-- c. create variables for each crystal -->
+                <!-- i. each crystal should be assigned a randomized number (using math.Floor(math.Random) * range(which here is 1-12)) -->
+                <!-- ii. select HTML class & use .on("click" function()) -->
+                    <!-- *. inside callback function, increase userTotal by added the selected varaible to the previous userTotal -->
+         
         Create Functions to give variables something to do
         Create events to run the functions
         Print number totals, wins, losses on the browser.            
