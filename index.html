@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/> -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -22,21 +23,21 @@
             <p class="info-container">You win the game by matching your score total to the randomized number.
                 You lose if the total score exceeds the randomized number.</p>
             <p class="info-container">The values of each crystal are hidden until the you click on it.</p>
-            <p class="info-container">A randomized number is generated after each time the you win or lose.</p>
+            <p class="info-container">A randomized number is generated after each time you win or lose.</p>
         </div>
         <br><br>
-        <section>
+        <section class="section">
             <div class="items">
-                <p class="numbers">Random Number: </p>
+                <p class="rand-num">Random Number: </p>
                 <div id="wins-losses">
                     <p id="wins">Wins: </p>
                     <p id="losses">Losses: </p>
                 </div>
                 <div id="crystals">
-                    <img class="icons" src="assets/images/redcrystal.png" alt="red crystal">
-                    <img class="icons" src="assets/images/bluecrystal.png" alt="blue crystal">
-                    <img class="icons" src="assets/images/greencrystal.png" alt="green crystal">
-                    <img class="icons" src="assets/images/yellowcrystal.png" alt="yellow crystal">
+                    <img class="icons red-cry" src="assets/images/redcrystal.png" alt="red crystal">
+                    <img class="icons blue-cry" src="assets/images/bluecrystal.png" alt="blue crystal">
+                    <img class="icons green-cry" src="assets/images/greencrystal.png" alt="green crystal">
+                    <img class="icons yellow-cry" src="assets/images/yellowcrystal.png" alt="yellow crystal">
                 </div>
                 <div id="score-banner">
                     <p>Your Total Score is: </p>

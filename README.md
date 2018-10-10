@@ -1,4 +1,4 @@
-```# unit-4-game
+## unit-4-game
 crystal counter hw for week 4. jQuery used. 
 
 **Note**
@@ -13,16 +13,16 @@ How the Game Works:
     5. A randomized number is generated after each time the user wins or loses.
 
 Strategy: 
-    1. Create HTML with key words:
+    <!-- 1. Create HTML with key words:
         a. set up structure and words. 
-        b. find crystal images.
+        b. find crystal images. -->
     2. Begin jQuery
         What needs to happen here?
-            a. create a variable the cpu randomized number
-                i. randomized number set using (using math.Floor(math.Random) * range(which here is 19-120))
-                ii. use: function getRandomInt(min, max){
+            <!-- a. create a variable the cpu randomized number -->
+                <!-- i. randomized number set using (using math.Floor(math.Random) * range(which here is 19-120)) -->
+                <!-- ii. use: function getRandomInt(min, max){
                         return Math.floor(Math.random() * (max - min + 1)) + min;
-                }
+                } -->
             b. wins & losses variables
                 i. wins++ if userTotal === cpuNumber
                 ii. losses++ if userTotal > cpuNumber
@@ -37,11 +37,12 @@ Strategy:
         Create events to run the functions
         Print number totals, wins, losses on the browser.            
     
-    
-    CSS Notes:
-        1. everything looks floated left 
-            a. remember to use "clearfix" clear: both
-        2. use columns
-        3. use padding to increase each box
-            a. use positioning within the boxes to place numbers
-            b. absolute positioning(?)```
+    3. CSS for Visuals
+        CSS Notes:
+            1. everything looks floated left 
+                a. remember to use "clearfix" clear: both
+            2. use columns
+            3. use padding to increase each box
+                a. use positioning within the boxes to place numbers
+                b. absolute positioning(?)
+        Find colors and patterns with Eye Dropper (Chrome Extension)
