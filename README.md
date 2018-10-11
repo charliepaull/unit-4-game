@@ -44,3 +44,15 @@ Strategy:
                 a. use positioning within the boxes to place numbers
                 b. absolute positioning(?)
         Find colors and patterns with Eye Dropper (Chrome Extension)
+
+**Note: make the crystals spin when they're clicked through animation!!
+    Is that through CSS or JS/jQuery?
+Anoter Bonus: add the numbers of each crystal below so user can keep track!
+**What bonuses are part of the assignment?
+
+
+
+**Note:
+
+add ``` back in before submitting entire repo on BCS
+comment back in all text to show normally.
