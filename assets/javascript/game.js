@@ -18,43 +18,47 @@ var userTotal = 0;
 
 // waits until HTML is loaded to run JS or jQuery code
 $(document).ready(function () {
-    /* Call the ID #rand-num & set the variable cpuNumber = a 
-    randomized number using math.Floor(math.random)*/
+    //Set the variable cpuNumber randomized number using Math.floor(Math.random)*/
     cpuNumber = Math.floor(Math.random() * (120 - 19 + 1)) + 19
     // Select #rand-num and use .text(cpuNumber) to print cpuNumber to the browser
     $("#rand-num").text(cpuNumber);
     console.log(cpuNumber);
 
+    //Select ID #user-score and use .text(userScore) to print userScore to the browser.
+    $("#user-score").text(userTotal);
+    
     //Select .red-cry class & use .on("click",function()) method to trigger a callback funtion
     $(".red-cry").on("click", function () {
-        //Select value of var "red" & add it to userTotal (use userTotal = red + userTotal to increment)
+        //Select value of var "red" & add it to userTotal (use userTotal += red to increment)
         userTotal += red;
         console.log(userTotal);
+        $("#user-score").text(userTotal);
+        // $("#red-value").text(red);
     });
 
     //Select .blue-cry class & use .on("click",function()) method to trigger a callback funtion
     $(".blue-cry").on("click", function () {
-        //Select value of var "blue" & add it to userTotal (use userTotal = blue + userTotal to increment)
+        //Select value of var "blue" & add it to userTotal (use userTotal += blue to increment)
         userTotal += blue;
+        $("#user-score").text(userTotal);
         console.log(userTotal);
     });
 
     //Select .green-cry class & use .on("click",function()) method to trigger a callback funtion
     $(".green-cry").on("click", function () {
-        //Select value of var "green" & add it to userTotal (use userTotal = green + userTotal to increment)
+        //Select value of var "green" & add it to userTotal (use userTotal += green to increment)
         userTotal += green;
+        $("#user-score").text(userTotal);
         console.log(userTotal);
     });
 
     //Select .yellow-cry class & use .on("click",function()) method to trigger a callback funtion
     $(".yellow-cry").on("click", function () {
-        //Select value of var "yellow" & add it to userTotal (use userTotal = yellow + userTotal to increment)
+        //Select value of var "yellow" & add it to userTotal (use userTotal += yellow to increment)
         userTotal += yellow;
+        $("#user-score").text(userTotal);
         console.log(userTotal);
     });
-
-    //Select ID #user-score and use .text(userScore) to print userScore to the browser.
-    $("#user-score").text(userTotal);
 
     // Let's create an If/Else statement here:
     // Create an IF statement where userTotal === cpuNumber 
