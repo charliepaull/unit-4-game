@@ -66,7 +66,7 @@ function score(crystalValue) {
     }
 
 }    
-// Do I need this reset? 
+
 reset();
 
 // waits until HTML is loaded to run JS or jQuery code
