@@ -41,5 +41,3 @@
             - use positioning within the boxes to place numbers
             - absolute positioning(?)
         d. Find colors and patterns with Eye Dropper (Chrome Extension)
-
-## Note: make the crystals spin when they're clicked through animation!!
